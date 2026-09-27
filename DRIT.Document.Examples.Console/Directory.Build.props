@@ -1,0 +1,8 @@
+<Project>
+  <ItemGroup>
+    <PackageReference Include="DRIT.Document" Version="26.9.1376" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Shared\ExampleSupport.cs" Link="Shared\ExampleSupport.cs" />
+  </ItemGroup>
+</Project>
