@@ -10,10 +10,8 @@ DRIT.Document.Examples.Console/
   ...
 ```
 
-By default projects consume the released `DRIT.Document` NuGet package. The
-first public snapshot uses `DRIT.Document 26.9.1376`; future compatible 26.x
-snapshots may use the rolling `26.*` package line. Run an example from the
-public repository root with:
+By default projects consume the released `DRIT.Document` package from the rolling `26.*` package line. Release notes record the exact version resolved during validation.
+Run an example from the public repository root with:
 
 ```powershell
 dotnet run --project .\DRIT.Document.Examples.Console\GettingStarted\GettingStarted.csproj -f net8.0

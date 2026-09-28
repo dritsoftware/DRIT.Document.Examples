@@ -475,7 +475,7 @@ This repository contains **runnable console examples** for DRIT.Document. The co
 
 Each example is a standalone console project. Open the individual `.csproj` in Visual Studio 2022 (17.10+) or build from the command line.
 
-The examples reference the **DRIT.Document NuGet package**. The first public snapshot uses `DRIT.Document 26.9.1376`; future compatible updates may use the rolling `26.*` package line. Restore and run a single example:
+The examples reference the **DRIT.Document NuGet package** using the rolling `26.*` package line. Release notes record the exact version resolved during validation.
 
 ```bash
 cd GettingStarted
