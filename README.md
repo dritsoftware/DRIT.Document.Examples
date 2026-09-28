@@ -479,7 +479,7 @@ The examples reference the **DRIT.Document NuGet package**. The first public sna
 
 ```bash
 cd GettingStarted
-dotnet add package DRIT.Document --version 26.9.1376
+dotnet add package DRIT.Document --version 26.*
 dotnet run
 ```
 
